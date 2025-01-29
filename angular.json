@@ -34,7 +34,7 @@
             ],
             "scripts": [
               "src/assets/vendor/boostrap/boostrap.bundle.min.js",
-              "src/assets/vendor//boostrap/boostrap.bundle.min.js.map",
+              
               "src/assets/vendor/fancy/fancy.bundle.min.js",
               "src/assets/vendor/nice-select/jquery.nice-select.min.js",
               "src/assets/vendor/slick/slick.min.js",

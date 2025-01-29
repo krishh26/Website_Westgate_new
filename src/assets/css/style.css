@@ -5752,71 +5752,71 @@ p {
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-1\.png\)\] {
-  background-image: url(../images/assets/bg-1.png);
+  /* background-image: url(../images/assets/bg-1.png); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-13\.png\)\] {
-  background-image: url(../images/assets/bg-13.png);
+  /* background-image: url(../images/assets/bg-13.png); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-14\.svg\)\] {
-  background-image: url(../images/assets/bg-14.svg);
+  /* background-image: url(../images/assets/bg-14.svg); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-16\.svg\)\] {
-  background-image: url(../images/assets/bg-16.svg);
+  /* background-image: url(../images/assets/bg-16.svg); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-3\.png\)\] {
-  background-image: url(../images/assets/bg-3.png);
+  /* background-image: url(../images/assets/bg-3.png); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-5\.png\)\] {
-  background-image: url(../images/assets/bg-5.png);
+  /* background-image: url(../images/assets/bg-5.png); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/bg-6\.png\)\] {
-  background-image: url(../images/assets/bg-6.png);
+  /* background-image: url(../images/assets/bg-6.png); */
 }
 
 .bg-\[url\(\.\.\/images\/assets\/hero_01\.png\)\] {
-  background-image: url(../images/assets/hero_01.png);
+  /* background-image: url(../images/assets/hero_01.png); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img\\_83\.jpg\)\] {
-  background-image: url(../images/media/img\_83.jpg);
+  /* background-image: url(../images/media/img\_83.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img_38\.jpg\)\] {
-  background-image: url(../images/media/img_38.jpg);
+  /* background-image: url(../images/media/img_38.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img_39\.jpg\)\] {
-  background-image: url(../images/media/img_39.jpg);
+  /* background-image: url(../images/media/img_39.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img_72\.jpg\)\] {
-  background-image: url(../images/media/img_72.jpg);
+  /* background-image: url(../images/media/img_72.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img_85\.jpg\)\] {
-  background-image: url(../images/media/img_85.jpg);
+  /* background-image: url(../images/media/img_85.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img_86\.jpg\)\] {
-  background-image: url(../images/media/img_86.jpg);
+  /* background-image: url(../images/media/img_86.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/media\/img_87\.jpg\)\] {
-  background-image: url(../images/media/img_87.jpg);
+  /* background-image: url(../images/media/img_87.jpg); */
 }
 
 .bg-\[url\(\.\.\/images\/shape\/shape_126\.svg\)\] {
-  background-image: url(../images/shape/shape_126.svg);
+  /* background-image: url(../images/shape/shape_126.svg); */
 }
 
 .bg-\[url\(\.\.\/images\/shape\/shape_94\.svg\)\] {
-  background-image: url(../images/shape/shape_94.svg);
+  /* background-image: url(../images/shape/shape_94.svg); */
 }
 
 .bg-cover {
@@ -11838,32 +11838,32 @@ body .btn-seventeen:before {
 }
 
 .before\:content-\[url\(\.\.\/images\/icon\/icon\\_113\.svg\)\]::before {
-  --tw-content: url(../images/icon/icon\_113.svg);
+  /* --tw-content: url(../images/icon/icon\_113.svg); */
   content: var(--tw-content);
 }
 
 .before\:content-\[url\(\.\.\/images\/icon\/icon\\_136\.svg\)\]::before {
-  --tw-content: url(../images/icon/icon\_136.svg);
+  /* --tw-content: url(../images/icon/icon\_136.svg); */
   content: var(--tw-content);
 }
 
 .before\:content-\[url\(\.\.\/images\/icon\/icon\\_93\.svg\)\]::before {
-  --tw-content: url(../images/icon/icon\_93.svg);
+  /* --tw-content: url(../images/icon/icon\_93.svg); */
   content: var(--tw-content);
 }
 
 .before\:content-\[url\(\.\.\/images\/shape\/shape\\_141\.svg\)\]::before {
-  --tw-content: url(../images/shape/shape\_141.svg);
+  /* --tw-content: url(../images/shape/shape\_141.svg); */
   content: var(--tw-content);
 }
 
 .before\:content-\[url\(\.\.\/images\/shape\/shape\\_145\.svg\)\]::before {
-  --tw-content: url(../images/shape/shape\_145.svg);
+  /* --tw-content: url(../images/shape/shape\_145.svg); */
   content: var(--tw-content);
 }
 
 .before\:content-\[url\(\.\.\/images\/shape\/shape\\_177\.svg\)\]::before {
-  --tw-content: url(../images/shape/shape\_177.svg);
+  /* --tw-content: url(../images/shape/shape\_177.svg); */
   content: var(--tw-content);
 }
 
@@ -12385,22 +12385,22 @@ body .btn-seventeen:before {
 
 .after\:bg-\[url\(\.\.\/images\/assets\/bg-10\.svg\)\]::after {
   content: var(--tw-content);
-  background-image: url(../images/assets/bg-10.svg);
+  /* background-image: url(../images/assets/bg-10.svg); */
 }
 
 .after\:bg-\[url\(\.\.\/images\/assets\/bg-11\.svg\)\]::after {
   content: var(--tw-content);
-  background-image: url(../images/assets/bg-11.svg);
+  /* background-image: url(../images/assets/bg-11.svg); */
 }
 
 .after\:bg-\[url\(\.\.\/images\/assets\/bg-2\.png\)\]::after {
   content: var(--tw-content);
-  background-image: url(../images/assets/bg-2.png);
+  /* background-image: url(../images/assets/bg-2.png); */
 }
 
 .after\:bg-\[url\(\.\.\/images\/shape\/shape_86\.svg\)\]::after {
   content: var(--tw-content);
-  background-image: url(../images/shape/shape_86.svg);
+  /* background-image: url(../images/shape/shape_86.svg); */
 }
 
 .after\:bg-none::after {
@@ -12594,37 +12594,37 @@ body .btn-seventeen:before {
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon\\_111\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon\_111.svg);
+  /* --tw-content: url(../images/icon/icon\_111.svg); */
   content: var(--tw-content);
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon\\_135\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon\_135.svg);
+  /* --tw-content: url(../images/icon/icon\_135.svg); */
   content: var(--tw-content);
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon\\_137\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon\_137.svg);
+  /* --tw-content: url(../images/icon/icon\_137.svg); */
   content: var(--tw-content);
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon\\_21\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon\_21.svg);
+  /* --tw-content: url(../images/icon/icon\_21.svg); */
   content: var(--tw-content);
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon\\_74\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon\_74.svg);
+  /* --tw-content: url(../images/icon/icon\_74.svg); */
   content: var(--tw-content);
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon_36\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon_36.svg);
+  /* --tw-content: url(../images/icon/icon_36.svg); */
   content: var(--tw-content);
 }
 
 .after\:content-\[url\(\.\.\/images\/icon\/icon_86\.svg\)\]::after {
-  --tw-content: url(../images/icon/icon_86.svg);
+  /* --tw-content: url(../images/icon/icon_86.svg); */
   content: var(--tw-content);
 }
 

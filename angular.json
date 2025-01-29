@@ -25,28 +25,30 @@
               "src/assets"
             ],
             "styles": [
-              "src/assets/vendor/fancybox/jquery.fancybox.min.css",
-              "src/assets/vendor/nice-select/nice-select.css",
+              "src/assets/fonts/gordita/stylesheet.css",
+              "src/assets/fonts/eustache/stylesheet.css",
+              "src/assets/fonts/noteworthy/style.css",
+              "src/assets/fonts/bootstrap-icons/font-css.css",
+              "src/assets/fonts/font-awesome/css/all.min.css",
+              "src/assets/vendor/fancybox/dist/jquery.fancybox.min.css",
               "src/assets/vendor/slick/slick.css",
-              "src/assets/vendor/nice-select/nice-select.css",
               "src/assets/vendor/wow/animate.css",
-              "src/styles.css"
+              "src/assets/css/custom-animation.css",
+              "src/assets/vendor/nice-select/nice-select.css",
+              "src/assets/css/style.css"
             ],
             "scripts": [
-              "src/assets/vendor/boostrap/boostrap.bundle.min.js",
-              
-              "src/assets/vendor/fancy/fancy.bundle.min.js",
-              "src/assets/vendor/nice-select/jquery.nice-select.min.js",
-              "src/assets/vendor/slick/slick.min.js",
+              "src/assets/vendor/jquery.min.js",
+              "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
               "src/assets/vendor/wow/wow.min.js",
-              "src/assets/html5shiv.js",
-              "src/assets/isotope.pkgd.min.js",
-              "src/assets/jquery.counterup.min.js",
-              "src/assets/jquery.lazy.min.js",
-              "src/assets/jquery.js",
-              "src/assets/jquery.waypoints.min.js",
-              "src/assets/respond.js",
-              "src/assets/validators.js"
+              "src/assets/vendor/slick/slick.min.js",
+              "src/assets/vendor/fancybox/dist/jquery.fancybox.min.js",
+              "src/assets/vendor/jquery.lazy.min.js",
+              "src/assets/vendor/jquery.counterup.min.js",
+              "src/assets/vendor/jquery.waypoints.min.js",
+              "src/assets/vendor/nice-select/jquery.nice-select.min.js",
+              "src/assets/vendor/validator.js",
+              "src/assets/js/theme.js"
             ]
           },
           "configurations": {

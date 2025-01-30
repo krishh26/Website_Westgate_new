@@ -8,6 +8,10 @@ import { ContactUsModule } from './modules/contact-us/contact-us.module';
 import { AboutUsModule } from './modules/about-us/about-us.module';
 import { HeaderComponent } from './shared/component/header/header.component';
 import { FooterComponent } from './shared/component/footer/footer.component';
+import { PricingModule } from './modules/pricing/pricing.module';
+import { PartnerWithUsModule } from './modules/partner-with-us/partner-with-us.module';
+import { ServicesModule } from './modules/services/services.module';
+import { FaqModule } from './modules/faq/faq.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { FooterComponent } from './shared/component/footer/footer.component';
     AppRoutingModule,
     HomeModule,
     ContactUsModule,
-    AboutUsModule
+    AboutUsModule,
+    PricingModule,
+    PartnerWithUsModule,
+    ServicesModule,
+    FaqModule
   ],
   providers: [],
   bootstrap: [AppComponent]

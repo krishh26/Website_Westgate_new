@@ -4,7 +4,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'contact-us', component: ContactUsComponent }
+  { path: '', component: ContactUsComponent }
 ];
 
 @NgModule({

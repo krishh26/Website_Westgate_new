@@ -12,6 +12,7 @@ import { PricingModule } from './modules/pricing/pricing.module';
 import { PartnerWithUsModule } from './modules/partner-with-us/partner-with-us.module';
 import { ServicesModule } from './modules/services/services.module';
 import { FaqModule } from './modules/faq/faq.module';
+import { BlogsModule } from './modules/blogs/blogs.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FaqModule } from './modules/faq/faq.module';
     PricingModule,
     PartnerWithUsModule,
     ServicesModule,
-    FaqModule
+    FaqModule,
+    BlogsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

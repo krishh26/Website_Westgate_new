@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'partner-with-us', loadChildren: () => import('./modules/partner-with-us/partner-with-us.module').then(m => m.PartnerWithUsModule) },
   { path: 'pricing', loadChildren: () => import('./modules/pricing/pricing.module').then(m => m.PricingModule) },
   { path: 'services', loadChildren: () => import('./modules/services/services.module').then(m => m.ServicesModule) },
+  { path: 'blogs', loadChildren: () => import('./modules/blogs/blogs.module').then(m => m.BlogsModule) },
 ];
 
 

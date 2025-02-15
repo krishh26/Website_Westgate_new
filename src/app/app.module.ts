@@ -13,7 +13,8 @@ import { PartnerWithUsModule } from './modules/partner-with-us/partner-with-us.m
 import { ServicesModule } from './modules/services/services.module';
 import { FaqModule } from './modules/faq/faq.module';
 import { BlogsModule } from './modules/blogs/blogs.module';
-
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,10 @@ import { BlogsModule } from './modules/blogs/blogs.module';
     PartnerWithUsModule,
     ServicesModule,
     FaqModule,
-    BlogsModule
+    BlogsModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

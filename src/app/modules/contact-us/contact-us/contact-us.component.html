@@ -17,13 +17,13 @@
                             class="mt-[45px]  lg:mt-5 md:mt-5 sm:mt-5 xsm:mt-5  mb-[70px]  lg:mb-[30px] md:mb-[30px] sm:mb-[30px] xsm:mb-[30px]  text-[20px] lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px]  !leading-[2]  text-center wow fadeInUp">
                             We’re here to help. Whether you have a question or want to explore partnership
                             opportunities, our team is ready to assist you.</p>
-                            <a routerLink="/contact-us"
-                        class="btn-fourteen font-medium tran3s leading-[60px] text-[18px] text-black relative px-[30px] py-0 before:content-[''] before:absolute before:w-full before:h-full before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:left-2 before:top-2 hover:text-white bg-[var(--prime-six)] before:bg-black hover:bg-black hover:before:bg-[var(--prime-six)] lg:p-[0_25px] lg:leading-[55px] lg:text-[16px] md:p-[0_25px] md:leading-[55px] md:text-[16px] sm:p-[0_25px] sm:leading-[55px] sm:text-[16px] xsm:p-[0_25px] xsm:leading-[55px] xsm:text-[15px]">Contact
-                        Us Now</a>
+                        <a routerLink="/contact-us"
+                            class="btn-fourteen font-medium tran3s leading-[60px] text-[18px] text-black relative px-[30px] py-0 before:content-[''] before:absolute before:w-full before:h-full before:z-[-1] before:transition-all before:duration-[0.3s] before:ease-[ease-in-out] before:left-2 before:top-2 hover:text-white bg-[var(--prime-six)] before:bg-black hover:bg-black hover:before:bg-[var(--prime-six)] lg:p-[0_25px] lg:leading-[55px] lg:text-[16px] md:p-[0_25px] md:leading-[55px] md:text-[16px] sm:p-[0_25px] sm:leading-[55px] sm:text-[16px] xsm:p-[0_25px] xsm:leading-[55px] xsm:text-[15px]">Contact
+                            Us Now</a>
                     </div>
                 </div>
 
-               
+
             </div>
         </div>
 
@@ -66,18 +66,21 @@
 
                 <div class="xxl:w-11/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto">
                     <div class="form-style-four wow fadeInUp">
-                        <form action="inc/contact.php" id="contact-form" data-toggle="validator">
+                        <form [formGroup]="contactForm" (ngSubmit)="submitForm()" id="contact-form" data-toggle="validator">
                             <div class="messages"></div>
                             <div
                                 class="input-bg-group relative controls m-[0_10px_0_0] p-[45px_60px_50px] border-2 border-solid border-black after:content-[''] after:absolute after:z-[-1] after:left-2 after:-right-2.5 after:top-2 after:-bottom-2.5 bg-white after:bg-black md:p-[40px_20px] sm:p-[40px_20px] xsm:p-[40px_20px]">
                                 <div class="block">
                                     <div class="input-group-meta form-group mb-[50px] ">
-                                        <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Name*</label>
+                                        <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Full Name*</label>
                                         <input
                                             class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
-                                            type="text" placeholder="Rashed Kabir" name="name" required="required"
-                                            data-error="Name is required.">
-                                        <div class="help-block with-errors"></div>
+                                            type="text" formControlName="fullName" placeholder="Enter your full name"
+                                            name="name" required="required" data-error="Name is required.">
+                                        <div
+                                            *ngIf="contactForm.controls['fullName'].invalid && contactForm.controls['fullName'].touched">
+                                            Name is required.
+                                        </div>
                                     </div>
                                 </div>
 
@@ -86,22 +89,80 @@
                                         <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Email*</label>
                                         <input
                                             class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
-                                            type="email" placeholder="demo@domain.com" name="email" required="required"
-                                            data-error="Valid email is required.">
-                                        <div class="help-block with-errors"></div>
+                                            type="email" formControlName="email" placeholder="Enter your email-id"
+                                            name="email" required="required" data-error="Valid email is required.">
+                                        <div
+                                            *ngIf="contactForm.controls['email'].invalid && contactForm.controls['email'].touched">
+                                            Valid email is required.
+                                        </div>
                                     </div>
                                 </div>
+
+                                <div class="block">
+                                    <div class="input-group-meta form-group mb-[50px] ">
+                                        <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Company Name*</label>
+                                        <input
+                                            class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
+                                            type="text" formControlName="companyName"
+                                            placeholder="Enter your company name" name="name" required="required"
+                                            data-error="Name is required.">
+                                        <div
+                                            *ngIf="contactForm.controls['companyName'].invalid && contactForm.controls['companyName'].touched">
+                                            Company name is required.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block">
+                                    <div class="input-group-meta form-group mb-[50px] ">
+                                        <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Phone*</label>
+                                        <input
+                                            class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
+                                            type="text" formControlName="phone" placeholder="Enter your phone number"
+                                            name="name" required="required" data-error="Name is required." (keypress)="NumberOnly($event)" minlength="10" maxlength="10">
+                                        <div
+                                            *ngIf="contactForm.controls['phone'].invalid && contactForm.controls['phone'].touched">
+                                            Enter a valid 10-digit phone number.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="block">
+                                    <div class="input-group-meta form-group mb-[50px] ">
+                                        <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Subject*</label>
+                                        <select
+                                            class="w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0 border-solid placeholder:text-black"
+                                            formControlName="subject" required>
+                                            <option value="" disabled selected>Select Subject</option>
+                                            <option value="General Inquiry">General Inquiry</option>
+                                            <option value="Partnership Inquiry">Partnership Inquiry</option>
+                                            <option value="Service Inquiry">Service Inquiry</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        <div *ngIf="contactForm.controls['subject'].invalid && contactForm.controls['subject'].touched"
+                                            class="text-red-500 text-sm">
+                                            Subject is required.
+                                        </div>
+                                    </div>
+                                </div>
+
+
                                 <div class="block">
                                     <div class="input-group-meta form-group">
-                                        <textarea
+                                        <label class="block text-[15px] text-[rgba(0,0,0,0.5)]">Message*</label>
+                                        <textarea formControlName="message"
                                             class=" w-full max-w-full h-40 text-black text-[17px] p-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
                                             placeholder="Your message*" name="message" required="required"
                                             data-error="Please,leave us a message."></textarea>
-                                        <div class="help-block with-errors"></div>
+                                        <div
+                                            *ngIf="contactForm.controls['message'].invalid && contactForm.controls['message'].touched">
+                                            Message is required.
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
-                            <button
+                            <button type="submit"
                                 class="btn-one font-medium w-full  text-[18px] block mt-[45px] text-black leading-[58px] relative transition-all duration-[0.3s] ease-[ease-in-out] px-8 py-0 rounded-[5px] bg-[var(--prime-six)] hover:bg-black hover:text-white md:leading-[48px] md:text-[15px] md:p-[0_25px] sm:leading-[48px] sm:text-[15px] sm:p-[0_25px] xsm:leading-[48px] xsm:text-[15px] xsm:p-[0_25px]">Send
                                 Message</button>
                         </form>

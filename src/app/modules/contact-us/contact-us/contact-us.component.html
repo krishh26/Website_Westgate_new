@@ -66,7 +66,8 @@
 
                 <div class="xxl:w-11/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto">
                     <div class="form-style-four wow fadeInUp">
-                        <form [formGroup]="contactForm" (ngSubmit)="submitForm()" id="contact-form" data-toggle="validator">
+                        <form [formGroup]="contactForm" (ngSubmit)="submitForm()" id="contact-form"
+                            data-toggle="validator">
                             <div class="messages"></div>
                             <div
                                 class="input-bg-group relative controls m-[0_10px_0_0] p-[45px_60px_50px] border-2 border-solid border-black after:content-[''] after:absolute after:z-[-1] after:left-2 after:-right-2.5 after:top-2 after:-bottom-2.5 bg-white after:bg-black md:p-[40px_20px] sm:p-[40px_20px] xsm:p-[40px_20px]">
@@ -119,7 +120,8 @@
                                         <input
                                             class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
                                             type="text" formControlName="phone" placeholder="Enter your phone number"
-                                            name="name" required="required" data-error="Name is required." (keypress)="NumberOnly($event)" minlength="10" maxlength="10">
+                                            name="name" required="required" data-error="Name is required."
+                                            (keypress)="NumberOnly($event)" minlength="10" maxlength="10">
                                         <div
                                             *ngIf="contactForm.controls['phone'].invalid && contactForm.controls['phone'].touched">
                                             Enter a valid 10-digit phone number.
@@ -219,7 +221,9 @@
                         <div class="mapouter h-[600px] lg:h-[450px] md:h-[450px] sm:h-[450px] xsm:h-[450px]">
                             <div class="gmap_canvas h-full w-full">
                                 <iframe class="gmap_iframe h-full w-full"
-                                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dhaka_collage&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                                    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=12.9068454,77.5455633&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                </iframe>
+
                             </div>
                         </div>
                     </div>

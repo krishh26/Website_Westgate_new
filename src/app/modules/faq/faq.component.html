@@ -446,34 +446,26 @@
   <section class="p-0">
     <div class="container">
       <!-- <div class="form-group desktop-hide mobile-show">
-  
-          <select class="form-select" id="tabDropdown">
-            <option value="#aboutus" ata-bs-toggle="tab" data-bs-target="#general" role="tab" aria-controls="aboutus"
-              aria-selected="true" id="myTab">About us</option>
-  
-            <option value="#general" data-bs-toggle="tab" data-bs-target="#general" role="tab" aria-controls="general"
-              aria-selected="false" id="general-tab">General</option>
-  
-            <option value="#costpricing" id="costpricing-tab" data-bs-toggle="tab" data-bs-target="#costpricing"
-              role="tab" aria-controls="general" aria-selected="false">Cost & Pricing</option>
-  
-            <option value="#legalcomplience" id="legalcomplience-tab" data-bs-toggle="tab"
-              data-bs-target="#legalcomplience" role="tab" aria-controls="legalcomplience" aria-selected="false">Legal &
-              Compliance</option>
-  
-            <option value="#registrationprocess" id="registrationprocess-tab" data-bs-toggle="tab"
-              data-bs-target="#registrationprocess" role="tab" aria-controls="legalcomplience" aria-selected="false">
-              Registration process</option>
-  
-            <option value="#partnershipopportunities" id="partnershipopportunities-tab" data-bs-toggle="tab"
-              data-bs-target="#partnershipopportunities" aria-controls="partnershipopportunities" aria-selected="false">
-              Partnership opportunities</option>
-  
-            <option value="#suppliereligibility" id="suppliereligibility-tab" data-bs-toggle="tab"
-              data-bs-target="#suppliereligibility" role="tab" aria-controls="suppliereligibility" aria-selected="false">
-              Supplier eligibility criteria</option>
-          </select>
-        </div> -->
+
+        <select class="form-select" id="tabDropdown">
+
+          <option value="#aboutus" ata-bs-toggle="tab" data-bs-target="#generalquestion" role="tab" aria-controls="generalquestion"
+            aria-selected="true" id="generalquestions">General Questions</option>
+
+          <option value="#general" data-bs-toggle="tab" data-bs-target="#partnershipandsubscription" role="tab" aria-controls="partnershipandsubscription"
+            aria-selected="false" id="PartnershipandSubscription">Partnership and Subscription
+            Questions</option>
+
+          <option value="#costpricing" id="Service-Related" data-bs-toggle="tab" data-bs-target="#servicerelated"
+            role="tab" aria-controls="servicerelated" aria-selected="false">Service-Related
+            Questions</option>
+
+          <option value="#legalcomplience" id="technical-tab" data-bs-toggle="tab"
+            data-bs-target="#technical" role="tab" aria-controls="technical" aria-selected="false">Technical
+            & Process-Related Questions</option>
+
+        </select>
+      </div> -->
 
       <ul class="nav nav-tabs mobile-hide" id="myTab" role="tablist" data-aos="flip-down">
 
@@ -614,165 +606,209 @@
         <div class="tab-pane fade" id="partnershipandsubscription" role="tabpanel"
           aria-labelledby="partnershipandsubscription">
           <div class="accordion accordion-flush" id="partnershipandsubscriptions">
+
+            <!-- Question 1 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-gheadingOne">
                 <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOneg" aria-expanded="false" aria-controls="flush-collapseOneg">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">1</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box"> What do I need to provide when registering
-                      with WestGate IT Hub?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      What do I need to provide when registering with WestGate IT Hub?
+                    </div>
                   </div>
                 </button>
               </h2>
               <div id="flush-collapseOneg" class="accordion-collapse collapse" aria-labelledby="flush-gheadingOne"
-                data-bs-parent="#accordianFlushGeneral">
+                data-bs-parent="#partnershipandsubscriptions">
                 <div class="accordion-body">
-                  When registering, you’ll need to provide basic company information, proof of
-                  your capabilities (such as portfolios, certifications, or case studies), and an
-                  overview of the services you offer. This helps us match you with the right
-                  opportunities in the UK.
+                  When registering, you’ll need to provide basic company information, proof of your capabilities
+                  (such as portfolios, certifications, or case studies), and an overview of the services you offer.
+                  This helps us match you with the right opportunities in the UK.
                 </div>
               </div>
             </div>
 
+            <!-- Question 2 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-gheadingTwo">
                 <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwog" aria-expanded="false" aria-controls="flush-collapseTwog">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">2</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box"> Can I change my subscription level or plan
-                      after joining?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      Can I change my subscription level or plan after joining?
+                    </div>
                   </div>
                 </button>
               </h2>
               <div id="flush-collapseTwog" class="accordion-collapse collapse" aria-labelledby="flush-gheadingTwo"
-                data-bs-parent="#accordianFlushGeneral">
+                data-bs-parent="#partnershipandsubscriptions">
                 <div class="accordion-body">
-                  Currently, we offer one subscription plan, which includes access to all of our
-                  services and the guarantee of at least one project. If there are any changes to
-                  our pricing or services, we’ll notify you in advance.
+                  Currently, we offer one subscription plan, which includes access to all of our services and the
+                  guarantee of at least one project. If there are any changes to our pricing or services, we’ll notify
+                  you in advance.
                 </div>
               </div>
             </div>
 
+            <!-- Question 3 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-gheadingThree">
                 <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThreeg" aria-expanded="false" aria-controls="flush-collapseThreeg">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">3</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box"> Is there a limit to the number of projects I
-                      can secure?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      Is there a limit to the number of projects I can secure?
+                    </div>
                   </div>
                 </button>
               </h2>
               <div id="flush-collapseThreeg" class="accordion-collapse collapse" aria-labelledby="flush-gheadingThree"
-                data-bs-parent="#accordianFlushGeneral">
+                data-bs-parent="#partnershipandsubscriptions">
                 <div class="accordion-body">
-                  No, there is no limit. Our goal is to help you grow and secure as many projects
-                  as possible. The minimum guarantee is one project worth 60L or more, but you can
-                  secure additional projects as we identify new opportunities.
+                  No, there is no limit. Our goal is to help you grow and secure as many projects as possible.
+                  The minimum guarantee is one project worth 60L or more, but you can secure additional projects
+                  as we identify new opportunities.
                 </div>
               </div>
             </div>
 
+            <!-- Question 4 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-gheadingFour">
                 <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFourg" aria-expanded="false" aria-controls="flush-collapseFourg">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">4</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box"> How do I know if the UK client is a good match
-                      for my company?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      How do I know if the UK client is a good match for my company?
+                    </div>
                   </div>
                 </button>
               </h2>
               <div id="flush-collapseFourg" class="accordion-collapse collapse" aria-labelledby="flush-gheadingFour"
-                data-bs-parent="#accordianFlushGeneral">
+                data-bs-parent="#partnershipandsubscriptions">
                 <div class="accordion-body">
-                  Our team ensures that all opportunities align with your company’s expertise and
-                  capabilities. We only connect you with UK clients that need services or
-                  resources that your company specializes in.
+                  Our team ensures that all opportunities align with your company’s expertise and capabilities.
+                  We only connect you with UK clients that need services or resources that your company specializes in.
                 </div>
               </div>
             </div>
+
+            <!-- Question 5 -->
+            <div class="accordion-item" data-aos="flip-down">
+              <h2 class="accordion-header" id="flush-gheadingFive">
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFiveg" aria-expanded="false" aria-controls="flush-collapseFiveg">
+                  <div class="row align-items-center w-100">
+                    <div class="col-lg-auto col-xl-auto col-12 number-box">5</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      What support do I receive as a partner of WestGate IT Hub?
+                    </div>
+                  </div>
+                </button>
+              </h2>
+              <div id="flush-collapseFiveg" class="accordion-collapse collapse" aria-labelledby="flush-gheadingFive"
+                data-bs-parent="#partnershipandsubscriptions">
+                <div class="accordion-body">
+                  As a partner, you receive continuous support, project matching services, marketing exposure, and
+                  access to exclusive networking events with UK clients. We also provide guidance on compliance and
+                  legal requirements to ensure smooth collaboration.
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
         <div class="tab-pane fade" id="servicerelated" role="tabpanel" aria-labelledby="servicerelated">
-          <div class="accordion accordion-flush" id="Service-Related">
+          <div class="accordion accordion-flush" id="service-related">
+
+            <!-- Question 1 -->
             <div class="accordion-item" data-aos="flip-down">
-              <h2 class="accordion-header" id="flush-cheadingOne">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOnec" aria-expanded="false" aria-controls="flush-collapseOnec">
+              <h2 class="accordion-header" id="flush-sheadingOne">
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOneS" aria-expanded="false" aria-controls="flush-collapseOneS">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">1</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box">What types of resources do you provide in your
-                      resource-sharing service?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      What types of resources do you provide in your resource-sharing service?
+                    </div>
                   </div>
                 </button>
               </h2>
-              <div id="flush-collapseOnec" class="accordion-collapse collapse" aria-labelledby="flush-cheadingOne"
-                data-bs-parent="#accordialFlushCostPricing">
+              <div id="flush-collapseOneS" class="accordion-collapse collapse" aria-labelledby="flush-sheadingOne"
+                data-bs-parent="#service-related">
                 <div class="accordion-body">
-                  We offer a wide range of skilled IT resources, including developers, designers,
-                  project managers, quality analysts, and other specialists. The type of resource
-                  is tailored to the specific project requirements in the UK.
+                  We offer a wide range of skilled IT resources, including developers, designers, project managers,
+                  quality analysts, and other specialists. The type of resource is tailored to the specific project
+                  requirements in the UK.
                 </div>
               </div>
             </div>
 
+            <!-- Question 2 -->
             <div class="accordion-item" data-aos="flip-down">
-              <h2 class="accordion-header" id="flush-cheadingTwo">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwoc" aria-expanded="false" aria-controls="flush-collapseTwoc">
+              <h2 class="accordion-header" id="flush-sheadingTwo">
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwoS" aria-expanded="false" aria-controls="flush-collapseTwoS">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">2</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box"> How does WestGate IT Hub handle communication
-                      between Indian and UK teams?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      How does WestGate IT Hub handle communication between Indian and UK teams?
+                    </div>
                   </div>
                 </button>
               </h2>
-              <div id="flush-collapseTwoc" class="accordion-collapse collapse" aria-labelledby="flush-cheadingTwo"
-                data-bs-parent="#accordialFlushCostPricing">
+              <div id="flush-collapseTwoS" class="accordion-collapse collapse" aria-labelledby="flush-sheadingTwo"
+                data-bs-parent="#service-related">
                 <div class="accordion-body">
-                  We facilitate seamless communication between the teams by managing time zone
-                  differences and coordinating meetings, ensuring smooth collaboration. We also
-                  provide project management support to keep everything on track.
+                  We facilitate seamless communication between the teams by managing time zone differences and
+                  coordinating
+                  meetings, ensuring smooth collaboration. We also provide project management support to keep everything
+                  on track.
                 </div>
               </div>
             </div>
 
+            <!-- Question 3 -->
             <div class="accordion-item" data-aos="flip-down">
-              <h2 class="accordion-header" id="flush-cheadingThree">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseThreec" aria-expanded="false" aria-controls="flush-collapseThreec">
+              <h2 class="accordion-header" id="flush-sheadingThree">
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThreeS" aria-expanded="false" aria-controls="flush-collapseThreeS">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">3</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box"> Do you offer ongoing support after securing a
-                      project?</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box">
+                      Do you offer ongoing support after securing a project?
+                    </div>
                   </div>
                 </button>
               </h2>
-              <div id="flush-collapseThreec" class="accordion-collapse collapse" aria-labelledby="flush-cheadingThree"
-                data-bs-parent="#accordialFlushCostPricing">
+              <div id="flush-collapseThreeS" class="accordion-collapse collapse" aria-labelledby="flush-sheadingThree"
+                data-bs-parent="#service-related">
                 <div class="accordion-body">
-                  Yes! We provide ongoing support during the project delivery phase, including
-                  managing resources, ensuring deadlines are met, and handling any client issues.
-                  We aim for successful project execution and long-term client satisfaction.
+                  Yes! We provide ongoing support during the project delivery phase, including managing resources,
+                  ensuring
+                  deadlines are met, and handling any client issues. We aim for successful project execution and
+                  long-term
+                  client satisfaction.
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 
         <div class="tab-pane fade" id="technical" role="tabpanel" aria-labelledby="technical-tab">
           <div class="accordion accordion-flush" id="technical">
+
+            <!-- Question 1 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-lheadingOne">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOnel" aria-expanded="false" aria-controls="flush-collapseOnel">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">1</div>
@@ -782,19 +818,19 @@
                 </button>
               </h2>
               <div id="flush-collapseOnel" class="accordion-collapse collapse" aria-labelledby="flush-lheadingOne"
-                data-bs-parent="#accordianFlushLegal">
+                data-bs-parent="#technical">
                 <div class="accordion-body">
-                  Our team works closely with your company to draft tailored proposals that
-                  highlight your capabilities and demonstrate your fit for the client’s needs. We
-                  ensure that each proposal is well-written, professional, and aligned with the
-                  client’s expectations.
+                  Our team works closely with your company to draft tailored proposals that highlight your capabilities
+                  and demonstrate your fit for the client’s needs. We ensure that each proposal is well-written,
+                  professional, and aligned with the client’s expectations.
                 </div>
               </div>
             </div>
 
+            <!-- Question 2 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-lheadingTwo">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseTwol" aria-expanded="false" aria-controls="flush-collapseTwol">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">2</div>
@@ -804,19 +840,19 @@
                 </button>
               </h2>
               <div id="flush-collapseTwol" class="accordion-collapse collapse" aria-labelledby="flush-lheadingTwo"
-                data-bs-parent="#accordianFlushLegal">
+                data-bs-parent="#technical">
                 <div class="accordion-body">
-                  Once a proposal is submitted, our team manages the follow-up, negotiations, and
-                  client discussions. We handle all client communication to ensure that your
-                  company is presented professionally and that project details are clearly
-                  outlined.
+                  Once a proposal is submitted, our team manages the follow-up, negotiations, and client discussions. We
+                  handle all client communication to ensure that your company is presented professionally and that
+                  project details are clearly outlined.
                 </div>
               </div>
             </div>
 
+            <!-- Question 3 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-lheadingThree">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseThreel" aria-expanded="false" aria-controls="flush-collapseThreel">
                   <div class="row align-items-center w-100">
                     <div class="col-lg-auto col-xl-auto col-12 number-box">3</div>
@@ -826,33 +862,35 @@
                 </button>
               </h2>
               <div id="flush-collapseThreel" class="accordion-collapse collapse" aria-labelledby="flush-lheadingThree"
-                data-bs-parent="#accordianFlushLegal">
+                data-bs-parent="#technical">
                 <div class="accordion-body">
-                  We can help facilitate discussions around contracts, but we recommend working
-                  with your legal team for final agreements. We ensure all aspects of the project
-                  scope and delivery are clearly defined before proceeding.
+                  We can help facilitate discussions around contracts, but we recommend working with your legal team for
+                  final agreements. We ensure all aspects of the project scope and delivery are clearly defined before
+                  proceeding.
                 </div>
               </div>
             </div>
 
+            <!-- Question 4 -->
             <div class="accordion-item" data-aos="flip-down">
               <h2 class="accordion-header" id="flush-lheadingFour">
-                <button class="accordion-button background-light-gray" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed background-light-gray" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseFourl" aria-expanded="false" aria-controls="flush-collapseFourl">
                   <div class="row align-items-center w-100">
-                    <div class="col-lg-auto col-xl-auto col-12 number-box">3</div>
-                    <div class="col-lg-10 col-xl-10 col-12 question-box">Can’t Find the Answer You Need?</div>
+                    <div class="col-lg-auto col-xl-auto col-12 number-box">4</div>
+                    <div class="col-lg-10 col-xl-10 col-12 question-box"> Can’t Find the Answer You Need?</div>
                   </div>
                 </button>
               </h2>
               <div id="flush-collapseFourl" class="accordion-collapse collapse" aria-labelledby="flush-lheadingFour"
-                data-bs-parent="#accordianFlushLegal">
+                data-bs-parent="#technical">
                 <div class="accordion-body">
-                  If your question hasn’t been answered or you need further clarification, don’t hesitate to
-                  reach out. Our team is happy to assist you.
+                  If your question hasn’t been answered or you need further clarification, don’t hesitate to reach out.
+                  Our team is happy to assist you.
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>

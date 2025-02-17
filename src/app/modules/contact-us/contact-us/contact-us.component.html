@@ -11,8 +11,8 @@
                                 class=" absolute z-[-1] max-w-[113%] -translate-x-2/4 -translate-y-2/4 left-2/4 top-2/4"
                                 src="assets/images/shape/shape_96.svg" alt=""></span></h2>
                 </div> <!-- /.title-style-seven -->
-                <div class="flex flex-wrap mx-[-12px]">
-                    <div class="xxl:w-6/12  xl:w-7/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto text-center">
+                <div class="flex flex-wrap mx-[-12px] mb-4">
+                    <div class="xxl:w-6/12  xl:w-7/12 w-full flex-[0_0_auto] px-[12px] max-w-full m-auto text-center mb-4">
                         <p
                             class="mt-[45px]  lg:mt-5 md:mt-5 sm:mt-5 xsm:mt-5  mb-[70px]  lg:mb-[30px] md:mb-[30px] sm:mb-[30px] xsm:mb-[30px]  text-[20px] lg:text-[18px] md:text-[18px] sm:text-[18px] xsm:text-[18px]  !leading-[2]  text-center wow fadeInUp">
                             We’re here to help. Whether you have a question or want to explore partnership
@@ -141,7 +141,8 @@
                                             <option value="Service Inquiry">Service Inquiry</option>
                                             <option value="Other">Other</option>
                                         </select>
-                                        <div style="color: red;" *ngIf="contactForm.controls['subject'].invalid && contactForm.controls['subject'].touched"
+                                        <div style="color: red;"
+                                            *ngIf="contactForm.controls['subject'].invalid && contactForm.controls['subject'].touched"
                                             class="text-red-500 text-sm">
                                             Subject is required.
                                         </div>

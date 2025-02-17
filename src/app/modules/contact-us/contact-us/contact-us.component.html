@@ -78,7 +78,7 @@
                                             class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
                                             type="text" formControlName="fullName" placeholder="Enter your full name"
                                             name="name" required="required" data-error="Name is required.">
-                                        <div
+                                        <div style="color: red;"
                                             *ngIf="contactForm.controls['fullName'].invalid && contactForm.controls['fullName'].touched">
                                             Name is required.
                                         </div>
@@ -92,7 +92,7 @@
                                             class=" w-full h-12 text-black text-[17px] pt-0 pb-[11px] px-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
                                             type="email" formControlName="email" placeholder="Enter your email-id"
                                             name="email" required="required" data-error="Valid email is required.">
-                                        <div
+                                        <div style="color: red;"
                                             *ngIf="contactForm.controls['email'].invalid && contactForm.controls['email'].touched">
                                             Valid email is required.
                                         </div>
@@ -107,7 +107,7 @@
                                             type="text" formControlName="companyName"
                                             placeholder="Enter your company name" name="name" required="required"
                                             data-error="Name is required.">
-                                        <div
+                                        <div style="color: red;"
                                             *ngIf="contactForm.controls['companyName'].invalid && contactForm.controls['companyName'].touched">
                                             Company name is required.
                                         </div>
@@ -122,7 +122,7 @@
                                             type="text" formControlName="phone" placeholder="Enter your phone number"
                                             name="name" required="required" data-error="Name is required."
                                             (keypress)="NumberOnly($event)" minlength="10" maxlength="10">
-                                        <div
+                                        <div style="color: red;"
                                             *ngIf="contactForm.controls['phone'].invalid && contactForm.controls['phone'].touched">
                                             Enter a valid 10-digit phone number.
                                         </div>
@@ -141,7 +141,7 @@
                                             <option value="Service Inquiry">Service Inquiry</option>
                                             <option value="Other">Other</option>
                                         </select>
-                                        <div *ngIf="contactForm.controls['subject'].invalid && contactForm.controls['subject'].touched"
+                                        <div style="color: red;" *ngIf="contactForm.controls['subject'].invalid && contactForm.controls['subject'].touched"
                                             class="text-red-500 text-sm">
                                             Subject is required.
                                         </div>
@@ -156,7 +156,7 @@
                                             class=" w-full max-w-full h-40 text-black text-[17px] p-0 border-b-2 border-b-black border-0  border-solid  placeholder:text-black"
                                             placeholder="Your message*" name="message" required="required"
                                             data-error="Please,leave us a message."></textarea>
-                                        <div
+                                        <div style="color: red;"
                                             *ngIf="contactForm.controls['message'].invalid && contactForm.controls['message'].touched">
                                             Message is required.
                                         </div>

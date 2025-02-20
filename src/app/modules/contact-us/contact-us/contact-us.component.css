@@ -1,0 +1,5 @@
+.input-group-meta input,
+.input-group-meta textarea,
+.input-group-meta select{
+    border-bottom: 1px solid #D9D9D9 !important;
+}

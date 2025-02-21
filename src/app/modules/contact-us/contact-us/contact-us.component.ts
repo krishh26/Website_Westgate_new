@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { NavigationEnd, Router } from '@angular/router';
 import { ContactUsService } from 'src/app/service/contact-us.service';
 
 @Component({
@@ -12,7 +13,12 @@ export class ContactUsComponent {
   contactForm!: FormGroup;
   isSubmitting = false;
 
-  constructor(private fb: FormBuilder, private contactService: ContactUsService) {
+  constructor(private fb: FormBuilder, private contactService: ContactUsService ,private router: Router) {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        window.scrollTo(0, 0); // Scroll to the top on each route change
+      }
+    });
     this.contactForm = this.fb.group({
       fullName: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],

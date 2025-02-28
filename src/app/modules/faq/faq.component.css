@@ -1,15 +1,17 @@
 .accordion-button:not(.collapsed) {
-    background-color: #cccfd3;
+    background-color: #fff8de;
     /* Light grey background */
     color: #000;
     /* Optional: set text color */
     transition: background-color 0.3s;
+    border: 1px solid #ffd338;
 }
 
 /* Styling for the active tab */
 .nav-link.active {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     /* Light grey for the active tab */
+    background-color: #ffd338;
     color: #333;
     /* Optional: Adjust text color if needed */
 }

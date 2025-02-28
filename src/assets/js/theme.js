@@ -413,10 +413,10 @@
 
 
 // ----------------------- Closes responsive menu when a scroll trigger link is clicked
-        $('#one-page-nav .nav-link').on('click', function(){
-          $('.navbar-collapse').removeClass('show');
-          $('.navbar-toggler').attr("aria-expanded", "false");
-        })
+        // $('#one-page-nav .nav-link').on('click', function(){
+        //   $('.navbar-collapse').removeClass('show');
+        //   $('.navbar-toggler').attr("aria-expanded", "false");
+        // })
 
 
 

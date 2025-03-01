@@ -1,0 +1,5 @@
+@media (max-width: 768px) {  /* Adjust breakpoint as needed */
+  .web-only {
+      display: none !important;
+  }
+}

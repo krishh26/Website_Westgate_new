@@ -9,6 +9,8 @@ declare var bootstrap: any;
 export class HeaderComponent {
   isNavbarCollapsed = true;
   private navbarCollapse: any;
+  activeRoute: string = '';
+
 
   ngAfterViewInit(): void {
     this.navbarCollapse = new bootstrap.Collapse('#navbarNav', { toggle: false });
@@ -26,6 +28,10 @@ export class HeaderComponent {
         window.scrollTo(0, 0); // Ensure the page starts at the top
       }
     });
+  }
+
+  isActive(route: string): boolean {
+    return this.activeRoute === route;
   }
 
 }

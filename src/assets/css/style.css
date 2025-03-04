@@ -10518,6 +10518,9 @@ body .btn-seventeen:before {
     display: block;
     border-radius: 6px;
   }
+  .mobile-img-hide{
+    display: none;
+  }
 }
 
 
